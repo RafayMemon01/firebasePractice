@@ -1,0 +1,97 @@
+body {
+    font-family:  cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: #fff;
+}
+header{
+    position:absolute;
+    left: 10%;
+    bottom: 80%;
+    display: flex;
+    gap: .7rem;
+}
+header .logo{
+    border: 4px solid white;
+    padding: .3em;
+    border-radius: 50%;
+}
+.green{
+    color: #28a745 ;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.cardsContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0%;
+    list-style-type: none;
+    padding: 3em;
+}
+.cardsMain{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardsMain li{
+    background-color: #218838;
+    padding: 1em;
+    width: 9rem;
+    border-radius: .5em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+}
+/* footer{
+    position:relative;
+    /* left: %; */
+    /* top: 100%; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* gap: .7rem; */
+    /* padding-top: 4em;
+    font-size: small;
+    margin-top: 40%;
+
+}
+footer .link{
+    color: rgb(232, 252, 206);
+    text-decoration: none;
+}
+footer .link:hover{
+    color: #28a745;
+    text-decoration: none;
+} */ 
